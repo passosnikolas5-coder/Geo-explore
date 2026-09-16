@@ -1,0 +1,217 @@
+{
+  "javascript": {
+    "nome": "JavaScript",
+    "descricao": "Trilha para aprender fundamentos e boas práticas de JavaScript.",
+    "niveis": {
+      "iniciante": {
+        "modulos": [
+          "Fundamentos da linguagem",
+          "Variáveis e tipos de dados",
+          "Operadores",
+          "Estruturas condicionais",
+          "Estruturas de repetição",
+          "Funções",
+          "Arrays e objetos",
+          "Projeto final"
+        ],
+        "desafio": {
+          "titulo": "Lista de tarefas",
+          "enunciado": "Crie uma função que receba uma lista de tarefas e retorne somente as tarefas que ainda não foram concluídas.",
+          "requisitos": [
+            "Criar uma função reutilizável",
+            "Trabalhar com arrays e objetos",
+            "Retornar uma nova lista sem alterar a original"
+          ]
+        }
+      },
+      "intermediario": {
+        "modulos": [
+          "ES Modules",
+          "Métodos de arrays",
+          "Programação funcional",
+          "Promises e async/await",
+          "Tratamento de erros",
+          "APIs e JSON",
+          "Testes automatizados",
+          "Projeto final"
+        ],
+        "desafio": {
+          "titulo": "Consumindo uma API",
+          "enunciado": "Crie uma função assíncrona que consuma uma API, trate erros de rede e retorne apenas os campos necessários dos registros recebidos.",
+          "requisitos": [
+            "Utilizar async/await",
+            "Tratar erros com try/catch",
+            "Transformar os dados retornados",
+            "Criar ao menos um teste automatizado"
+          ]
+        }
+      },
+      "avancado": {
+        "modulos": [
+          "Arquitetura de aplicações",
+          "Padrões de projeto",
+          "Performance",
+          "Concorrência assíncrona",
+          "Segurança de aplicações",
+          "Testes de integração",
+          "Observabilidade",
+          "Projeto final"
+        ],
+        "desafio": {
+          "titulo": "Serviço resiliente",
+          "enunciado": "Projete um serviço que consulte uma API externa com timeout, tratamento de falhas e uma estratégia simples de retry.",
+          "requisitos": [
+            "Implementar timeout",
+            "Limitar tentativas de retry",
+            "Registrar falhas relevantes",
+            "Separar responsabilidades em módulos"
+          ]
+        }
+      }
+    }
+  },
+  "python": {
+    "nome": "Python",
+    "descricao": "Trilha focada em lógica, automação e desenvolvimento com Python.",
+    "niveis": {
+      "iniciante": {
+        "modulos": [
+          "Sintaxe básica",
+          "Variáveis e tipos",
+          "Condicionais",
+          "Laços de repetição",
+          "Funções",
+          "Listas e dicionários",
+          "Arquivos",
+          "Projeto final"
+        ],
+        "desafio": {
+          "titulo": "Filtrando números",
+          "enunciado": "Crie uma função que receba uma lista de números inteiros e retorne apenas os números pares em ordem crescente.",
+          "requisitos": [
+            "Criar uma função",
+            "Usar uma lista",
+            "Filtrar números pares",
+            "Ordenar o resultado"
+          ]
+        }
+      },
+      "intermediario": {
+        "modulos": [
+          "Compreensões de listas",
+          "Exceções",
+          "Módulos e pacotes",
+          "POO",
+          "Decoradores",
+          "Testes com unittest",
+          "APIs",
+          "Projeto final"
+        ],
+        "desafio": {
+          "titulo": "Processador de dados",
+          "enunciado": "Crie um programa que leia registros, valide os dados e produza um resumo agrupado por categoria.",
+          "requisitos": [
+            "Criar funções separadas",
+            "Validar entradas",
+            "Tratar exceções",
+            "Gerar um resumo organizado"
+          ]
+        }
+      },
+      "avancado": {
+        "modulos": [
+          "Arquitetura de software",
+          "Concorrência",
+          "Tipagem",
+          "Testes avançados",
+          "APIs assíncronas",
+          "Persistência de dados",
+          "Segurança",
+          "Projeto final"
+        ],
+        "desafio": {
+          "titulo": "Pipeline assíncrono",
+          "enunciado": "Implemente um pipeline assíncrono que processe várias fontes de dados, limite concorrência e consolide os resultados.",
+          "requisitos": [
+            "Usar programação assíncrona",
+            "Controlar concorrência",
+            "Tratar falhas individualmente",
+            "Consolidar os resultados"
+          ]
+        }
+      }
+    }
+  },
+  "java": {
+    "nome": "Java",
+    "descricao": "Trilha de fundamentos de Java, orientação a objetos e desenvolvimento robusto.",
+    "niveis": {
+      "iniciante": {
+        "modulos": [
+          "Sintaxe e tipos",
+          "Operadores",
+          "Condicionais",
+          "Laços",
+          "Métodos",
+          "Classes e objetos",
+          "Coleções básicas",
+          "Projeto final"
+        ],
+        "desafio": {
+          "titulo": "Cadastro de produtos",
+          "enunciado": "Crie uma aplicação simples para cadastrar produtos e calcular o valor total do estoque.",
+          "requisitos": [
+            "Criar uma classe Produto",
+            "Armazenar produtos em uma coleção",
+            "Calcular o valor total",
+            "Exibir um relatório simples"
+          ]
+        }
+      },
+      "intermediario": {
+        "modulos": [
+          "Herança e polimorfismo",
+          "Interfaces",
+          "Generics",
+          "Collections",
+          "Streams",
+          "Tratamento de exceções",
+          "Testes",
+          "Projeto final"
+        ],
+        "desafio": {
+          "titulo": "Relatório de vendas",
+          "enunciado": "Modele vendas e produza um relatório agrupado por vendedor usando coleções e Streams.",
+          "requisitos": [
+            "Modelar as entidades",
+            "Usar Streams",
+            "Agrupar os dados",
+            "Escrever pelo menos um teste"
+          ]
+        }
+      },
+      "avancado": {
+        "modulos": [
+          "Arquitetura",
+          "Concorrência",
+          "JVM e performance",
+          "Design Patterns",
+          "Persistência",
+          "Testes de integração",
+          "Observabilidade",
+          "Projeto final"
+        ],
+        "desafio": {
+          "titulo": "Serviço concorrente",
+          "enunciado": "Projete um serviço que processe tarefas concorrentes com controle de recursos e tratamento de falhas.",
+          "requisitos": [
+            "Utilizar recursos de concorrência",
+            "Controlar threads ou tarefas",
+            "Evitar condições de corrida",
+            "Criar testes para cenários críticos"
+          ]
+        }
+      }
+    }
+  }
+}

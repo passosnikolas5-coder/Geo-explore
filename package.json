@@ -1,0 +1,25 @@
+{
+  "name": "geo-explorer",
+  "version": "1.0.0",
+  "description": "Explorador de trilhas de aprendizagem, desafios de código e certificados fictícios.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "trilha": "node src/index.js trilha",
+    "desafio": "node src/index.js desafio",
+    "certificado": "node src/index.js certificado",
+    "test": "node --test",
+    "mcp": "node src/mcp-server.js"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "mcp",
+    "portfolio",
+    "dio",
+    "learning"
+  ],
+  "author": "Nikolas",
+  "license": "MIT"
+}
